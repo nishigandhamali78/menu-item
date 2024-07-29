@@ -3,12 +3,32 @@
             background-repeat: no-repeat;
             background-size: cover;
         } */
+         /* Bootstrap ICON CDN Link */
+          @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
         .main-division {
             width: 370px;
             border: 1px solid gray;
             border-radius: 12px;
             margin: 20px auto;
           }
+          #user-info{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        #user-info img{
+            width: 70px;
+            height: 70px;
+            padding-left: 8px;
+        }
+        
+        #user-name h3{
+            margin: 0px;
+        }
+        
+        #user-name p{
+            margin: 0px;
+        }
           #item-photo img {
             width: 350px;
             height: 250px;
@@ -39,3 +59,10 @@
             margin-top: 5px;
             margin-bottom: 5px;
           }
+          #card-buttons{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
